@@ -11,4 +11,6 @@ Convert an image or video from dark mode to light mode using [ffmpeg](https://ww
 
 git clone https://github.com/skills/communicate-using-markdown
 
+```js
 var myVar = "Hello, world!";
+```
