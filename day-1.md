@@ -9,7 +9,9 @@
 - [ ] Convert my first blog post into an actual webpage.
 Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
 
+```bash
 git clone https://github.com/skills/communicate-using-markdown
+```
 
 ```js
 var myVar = "Hello, world!";
