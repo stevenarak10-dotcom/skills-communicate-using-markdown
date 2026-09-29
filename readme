@@ -15,7 +15,7 @@ Antud projekt on loodud selleks, et õppida ja praktiseerida versioonihaldustark
 Projekti tegemisel kasutasin järgmisi põhilisi Git käske:
 
 * `git status` – kontrollib failide olekut ja näitab tehtud muudatusi.
-* `git add` – lisab failid jälgitavate hulka (staging area).
+* `git add` – lisab failid jälgitavate hulka (staging area)
 * `git commit` – salvestab muudatused kohalikku ajalukku.
 * `git log` – kuvab tehtud commitide ajalugu.
 * `git branch` – loetleb olemasolevad harud või loob uue haru.
