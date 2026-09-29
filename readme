@@ -1,0 +1,47 @@
+# Minu Esimene Git Projekt
+
+Antud projekt on loodud selleks, et õppida ja praktiseerida versioonihaldustarkvara Git kasutamist. Projekt aitab mõista koodi ajaloo jälgimist ja erinevate harudega töötamist.
+
+## Mida ma selle projekti käigus õppisin?
+
+Õppeprotsessi käigus omandasin järgmised teadmised ja oskused:
+* Kuidas algatada uut Giti repositooriumit.
+* Kuidas jälgida failide olekuid ja muudatusi.
+* Kuidas luua uusi harusid ja neid peaharuga liita.
+* Koodi konfliktide lahendamise aluseid.
+
+### Kasutatud Git käsud
+
+Projekti tegemisel kasutasin järgmisi põhilisi Git käske:
+
+* `git status` – kontrollib failide olekut ja näitab tehtud muudatusi.
+* `git add` – lisab failid jälgitavate hulka (staging area).
+* `git commit` – salvestab muudatused kohalikku ajalukku.
+* `git log` – kuvab tehtud commitide ajalugu.
+* `git branch` – loetleb olemasolevad harud või loob uue haru.
+* `git switch` – võimaldab liikuda erinevate harude vahel.
+* `git merge` – liidab valitud haru muudatused aktiivse haruga.
+
+### Kuidas Git'i põhitöövoog toimib?
+
+Tüüpiline Giti töövoog koosneb järgmistest sammudest, mida saab terminalis käivitada järgmiselt:
+
+```bash
+# 1. Kontrolli failide olekut ja lisa muudatused
+git status
+git add failinimi.txt
+
+# 2. Salvesta muudatused koos sõnumiga
+git commit -m "Lisa projekti kirjeldus"
+
+# 3. Loo uus haru ja liigu sinna muudatuste tegemiseks
+git branch uuendus
+git switch uuendus
+```
+
+### Minu ülesannete nimekiri (Märkeruudud)
+
+- [x] Loo Giti repositoorium
+- [x] Lisa esimesed muudatused
+- [x] Loo uus haru ja testi liitmist
+- [ ] Lae projekt üles GitHubi keskkonda
